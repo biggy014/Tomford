@@ -1,0 +1,194 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    height: 6.5em;
+    width: 100;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+    
+
+}
+nav .firstname{
+    height: 87%;
+    width: 28%;
+    /* background-color: bisque; */
+    margin-right: 32em;
+    display: flex;
+    align-items: center;
+}
+
+nav .firstname h1{
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left:25px;
+
+}
+nav .secondname{
+    height: 87%;
+    width: 38%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+}
+
+nav .secondname a{
+    color: rgb(28, 27, 27);
+    text-decoration: none;
+    font-size: 12.5px;
+    padding-left:7em;
+}
+
+nav .secondname a:hover{
+    color: whitesmoke;
+}
+
+main .picture{
+    height:fit-content;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.picture .picture1{
+    height: 33.9em;
+    width: 50%;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: flex-end;
+}
+
+.picture div img{
+    width: 100%;
+    height: 100%;
+}
+.picture div a{
+    position: absolute;
+    color: whitesmoke;
+    margin: 0 0 2% 4%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.picture .picture2{
+    height: 33.9em;
+    width: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.bigbox{
+    height: fit-content;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.bigbox .innerbox1{
+    height: 16.5em;
+    width: 20%;
+    /* background-color: whitesmoke; */
+    margin-left:12px;
+    display: flex;
+    justify-content: center;
+}
+
+.innerbox1 .innerbox2{
+    height: 15em;
+    width: 15em;
+    /* background-color: gold; */
+    margin-top: 15px;
+    margin-bottom: 50px;
+    display: flex;
+    align-content: center;
+}
+
+.innerbox2  ul h2{
+    font-size: 17.5px;
+    /* text-align: center; */
+    color: #404040;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em
+
+}
+
+.innerbox2 ul a{
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    color: #000000;
+}
+
+footer{
+    height: 4em;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+
+}
+
+footer .footer1{
+    height: 100%;
+    width: 40%;
+    background-color: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:2em;
+
+}
+
+footer .footer2{
+    height:100%;
+    width: 60%;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1 .boxy{
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:5em;
+}
+
+
+.footer1 a{
+    font-size: 16px;
+    padding-right: 5em;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+.footer2 a{
+    font-size:12px;
+    text-decoration: none;
+    color: #404040;
+}
+
+.footer2 a p{
+    font-size:12px;
+    color: #404040;
+}
