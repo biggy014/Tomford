@@ -136,7 +136,7 @@ main .picture{
 footer{
     height: 4em;
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
 
 }
@@ -144,7 +144,7 @@ footer{
 footer .footer1{
     height: 100%;
     width: 40%;
-    background-color: rosybrown;
+    /* background-color: rosybrown; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,7 +155,7 @@ footer .footer1{
 footer .footer2{
     height:100%;
     width: 60%;
-    background-color: salmon;
+    /* background-color: salmon; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,7 +164,7 @@ footer .footer2{
 .footer1 .boxy{
     height: 100%;
     width: 50%;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
